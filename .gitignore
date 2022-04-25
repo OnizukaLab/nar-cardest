@@ -1,0 +1,8 @@
+.vscode/
+__pycache__/
+wandb/
+runs/
+datasets/**/*.csv
+datasets/**/*.sql
+results/**/*.csv
+results/**/*.json

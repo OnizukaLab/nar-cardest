@@ -1,0 +1,12 @@
+.cache/
+.vscode/
+.devcontainer/
+__pycache__/
+datasets/
+runs/
+wandb/
+models/
+results/
+benchmark/
+.dockerignore
+Dockerfile

@@ -1,0 +1,100 @@
+{
+  "epoch": 20.0,
+  "dmv-universal/tra_loss": 1.4347031116485596,
+  "dmv-universal/val_loss": 1.3377482891082764,
+  "time_this_iter_s": 64.80990719795227,
+  "should_checkpoint": true,
+  "done": true,
+  "timesteps_total": null,
+  "episodes_total": null,
+  "training_iteration": 77,
+  "trial_id": "ead084f8",
+  "experiment_id": "d37ea85bd9ba40e686aa69b5d0c3eb30",
+  "date": "2022-03-18_05-52-12",
+  "timestamp": 1647582732,
+  "time_total_s": 4996.661444425583,
+  "pid": 30454,
+  "hostname": "70f5500b9995",
+  "node_ip": "172.17.0.2",
+  "config": {
+    "static": {
+      "device": "cuda",
+      "dataset_name": "dmv",
+      "model_type": "trm",
+      "relation_type": "ur",
+      "cont_fanout": false,
+      "table_name": "dmv-universal",
+      "n_epochs": 20,
+      "fact_threshold": 3000,
+      "fact_bits": 10,
+      "id": "202203180428",
+      "n_trials": null,
+      "project_dir": "/workspaces/cardest",
+      "cache_dir_root": "/workspaces/cardest/.cache",
+      "wandb_project": "cardest-t-dmv-trm",
+      "wandb_entity": "amaya",
+      "seed": 1234,
+      "input_bins": [
+        [
+          "Record Type",
+          6
+        ],
+        [
+          "Registration Class",
+          77
+        ],
+        [
+          "State",
+          91
+        ],
+        [
+          "County",
+          65
+        ],
+        [
+          "Body Type",
+          61
+        ],
+        [
+          "Fuel Type",
+          11
+        ],
+        [
+          "Reg Valid Date",
+          2104
+        ],
+        [
+          "Color",
+          227
+        ],
+        [
+          "Scofflaw Indicator",
+          4
+        ],
+        [
+          "Suspension Indicator",
+          4
+        ],
+        [
+          "Revocation Indicator",
+          4
+        ]
+      ]
+    },
+    "d_word": 64,
+    "batch_size": 1024,
+    "lr": 0.001985564762587352,
+    "warmups": null,
+    "act_func_name": "gelu",
+    "dummy": 0,
+    "n_blocks": 2,
+    "d_ff": 128,
+    "n_heads": 2
+  },
+  "time_since_restore": 4996.661444425583,
+  "timesteps_since_restore": 0,
+  "iterations_since_restore": 77,
+  "experiment_tag": "1_act_func_name=gelu,batch_size=1024,d_ff=128,d_word=64,dummy=0,lr=0.0019856,n_blocks=2,n_heads=2,cache_dir_root=_workspaces_cardest_.cache,cont_fanout=False,dataset_name=dmv,device=cuda,fact_bits=10,fact_threshold=3000,id=202203180428,input_bins=[('Record Type', 6), ('Registration Class', 77), ('State', 91), ('County', 65), ('Body Type', 61), ('Fuel Type', 11), ('Reg Valid Date', 2104), ('Color', 227), ('Scofflaw Indicator', 4), ('Suspension Indicator', 4), ('Revocation Indicator', 4)],model_type=trm,n_epochs=20,n_trials=None,project_dir=_workspaces_cardest,relation_type=ur,seed=1234,table_name=dmv-universal,wandb_entity=amaya,wandb_project=cardest-t-dmv-trm,warmups=None",
+  "best_logdir": "/workspaces/cardest/runs/train_table_trial_2022-03-18_04-28-53/train_table_trial_ead084f8_1_act_func_name=gelu,batch_size=1024,d_ff=128,d_word=64,dummy=0,lr=0.0019856,n_blocks=2,n_heads=2,cache_2022-03-18_04-28-53",
+  "best_checkpointdir": "/workspaces/cardest/runs/train_table_trial_2022-03-18_04-28-53/train_table_trial_ead084f8_1_act_func_name=gelu,batch_size=1024,d_ff=128,d_word=64,dummy=0,lr=0.0019856,n_blocks=2,n_heads=2,cache_2022-03-18_04-28-53/checkpoint_epoch=15-step=180972/"
+}

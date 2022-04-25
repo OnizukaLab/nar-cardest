@@ -1,0 +1,204 @@
+{
+  "epoch": 20.0,
+  "imdb-job-light-universal/tra_loss": 0.9570715427398682,
+  "imdb-job-light-universal/val_loss": 0.8692460656166077,
+  "time_this_iter_s": 112.4896411895752,
+  "should_checkpoint": true,
+  "done": true,
+  "timesteps_total": null,
+  "episodes_total": null,
+  "training_iteration": 77,
+  "trial_id": "b05fae5a",
+  "experiment_id": "08fc7e1680d5461eacce70ec3c850db9",
+  "date": "2022-03-17_20-57-16",
+  "timestamp": 1647550636,
+  "time_total_s": 8648.476296186447,
+  "pid": 30319,
+  "hostname": "70f5500b9995",
+  "node_ip": "172.17.0.2",
+  "config": {
+    "static": {
+      "device": "cuda",
+      "dataset_name": "imdb-job-light",
+      "model_type": "trm",
+      "relation_type": "ur",
+      "cont_fanout": false,
+      "table_name": "imdb-job-light-universal",
+      "n_epochs": 20,
+      "fact_threshold": 2000,
+      "fact_bits": 10,
+      "id": "202203171833",
+      "n_trials": null,
+      "project_dir": "/workspaces/cardest",
+      "cache_dir_root": "/workspaces/cardest/.cache",
+      "wandb_project": "cardest-t-imdb-jl-trm-ur",
+      "wandb_entity": "amaya",
+      "seed": 1234,
+      "input_bins": [
+        [
+          "cast_info:movie_id:0",
+          1025
+        ],
+        [
+          "cast_info:movie_id:1",
+          1025
+        ],
+        [
+          "cast_info:movie_id:2",
+          4
+        ],
+        [
+          "cast_info:role_id",
+          13
+        ],
+        [
+          "movie_companies:company_id:0",
+          1025
+        ],
+        [
+          "movie_companies:company_id:1",
+          231
+        ],
+        [
+          "movie_companies:company_type_id",
+          4
+        ],
+        [
+          "movie_companies:movie_id:0",
+          1025
+        ],
+        [
+          "movie_companies:movie_id:1",
+          1025
+        ],
+        [
+          "movie_companies:movie_id:2",
+          3
+        ],
+        [
+          "movie_info:movie_id:0",
+          1025
+        ],
+        [
+          "movie_info:movie_id:1",
+          1025
+        ],
+        [
+          "movie_info:movie_id:2",
+          4
+        ],
+        [
+          "movie_info:info_type_id",
+          73
+        ],
+        [
+          "movie_keyword:movie_id:0",
+          1025
+        ],
+        [
+          "movie_keyword:movie_id:1",
+          467
+        ],
+        [
+          "movie_keyword:keyword_id:0",
+          1025
+        ],
+        [
+          "movie_keyword:keyword_id:1",
+          133
+        ],
+        [
+          "title:id:0",
+          1025
+        ],
+        [
+          "title:id:1",
+          1025
+        ],
+        [
+          "title:id:2",
+          4
+        ],
+        [
+          "title:kind_id",
+          8
+        ],
+        [
+          "title:production_year",
+          134
+        ],
+        [
+          "movie_info_idx:info_type_id",
+          7
+        ],
+        [
+          "movie_info_idx:movie_id:0",
+          1025
+        ],
+        [
+          "movie_info_idx:movie_id:1",
+          451
+        ],
+        [
+          "__in_cast_info",
+          4
+        ],
+        [
+          "__in_movie_companies",
+          4
+        ],
+        [
+          "__in_movie_info",
+          4
+        ],
+        [
+          "__in_movie_keyword",
+          4
+        ],
+        [
+          "__in_title",
+          4
+        ],
+        [
+          "__in_movie_info_idx",
+          4
+        ],
+        [
+          "__fanout_cast_info",
+          422
+        ],
+        [
+          "__fanout_movie_companies",
+          75
+        ],
+        [
+          "__fanout_movie_info",
+          620
+        ],
+        [
+          "__fanout_movie_keyword",
+          379
+        ],
+        [
+          "__fanout_movie_info_idx",
+          4
+        ]
+      ]
+    },
+    "d_word": 64,
+    "batch_size": 1024,
+    "lr": 0.0026422199499082227,
+    "warmups": null,
+    "act_func_name": "gelu",
+    "dummy": 1,
+    "n_blocks": 1,
+    "d_ff": 128,
+    "n_heads": 2
+  },
+  "time_since_restore": 8648.476296186447,
+  "timesteps_since_restore": 0,
+  "iterations_since_restore": 77,
+  "experiment_tag": "1_act_func_name=gelu,batch_size=1024,d_ff=128,d_word=64,dummy=1,lr=0.0026422,n_blocks=1,n_heads=2,cache_dir_root=_workspaces_cardest_.cache,cont_fanout=False,dataset_name=imdb-job-light,device=cuda,fact_bits=10,fact_threshold=2000,id=202203171833,input_bins=[('cast_info:movie_id:0', 1025), ('cast_info:movie_id:1', 1025), ('cast_info:movie_id:2', 4), ('cast_info:role_id', 13), ('movie_companies:company_id:0', 1025), ('movie_companies:company_id:1', 231), ('movie_companies:company_type_id', 4), ('movie_companies:movie_id:0', 1025), ('movie_companies:movie_id:1', 1025), ('movie_companies:movie_id:2', 3), ('movie_info:movie_id:0', 1025), ('movie_info:movie_id:1', 1025), ('movie_info:movie_id:2', 4), ('movie_info:info_type_id', 73), ('movie_keyword:movie_id:0', 1025), ('movie_keyword:movie_id:1', 467), ('movie_keyword:keyword_id:0', 1025), ('movie_keyword:keyword_id:1', 133), ('title:id:0', 1025), ('title:id:1', 1025), ('title:id:2', 4), ('title:kind_id', 8), ('title:production_year', 134), ('movie_info_idx:info_type_id', 7), ('movie_info_idx:movie_id:0', 1025), ('movie_info_idx:movie_id:1', 451), ('__in_cast_info', 4), ('__in_movie_companies', 4), ('__in_movie_info', 4), ('__in_movie_keyword', 4), ('__in_title', 4), ('__in_movie_info_idx', 4), ('__fanout_cast_info', 422), ('__fanout_movie_companies', 75), ('__fanout_movie_info', 620), ('__fanout_movie_keyword', 379), ('__fanout_movie_info_idx', 4)],model_type=trm,n_epochs=20,n_trials=None,project_dir=_workspaces_cardest,relation_type=ur,seed=1234,table_name=imdb-job-light-universal,wandb_entity=amaya,wandb_project=cardest-t-imdb-jl-trm-ur,warmups=None",
+  "best_logdir": "/workspaces/cardest/runs/train_table_trial_2022-03-17_18-33-06/train_table_trial_b05fae5a_1_act_func_name=gelu,batch_size=1024,d_ff=128,d_word=64,dummy=1,lr=0.0026422,n_blocks=1,n_heads=2,cache_2022-03-17_18-33-07",
+  "best_checkpointdir": "/workspaces/cardest/runs/train_table_trial_2022-03-17_18-33-06/train_table_trial_b05fae5a_1_act_func_name=gelu,batch_size=1024,d_ff=128,d_word=64,dummy=1,lr=0.0026422,n_blocks=1,n_heads=2,cache_2022-03-17_18-33-07/checkpoint_epoch=14-step=151494/"
+}
